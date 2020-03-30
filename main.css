@@ -1,0 +1,94 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background-color: lightgray;
+  width: 100%;
+  display: flex;
+}
+
+main {
+  height: 80vh;
+  text-align: center;
+}
+
+.navbar {
+  background-color: lightgray;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-li {
+  display: inline;
+  margin-right: 2em;
+}
+
+.logo {
+  margin-right: auto;
+  margin-left: 1em;
+}
+
+button {
+  display: block;
+  margin: 1em auto;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.login-input {
+  margin-top: .5em;
+}
+
+.grid-container {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bio-container {
+  width: 80%;
+  display: grid;
+  height: 150px;
+  grid-template-areas: 
+        "pic bio"
+}
+
+.img-div {
+  grid-area: pic;
+  width: 100%;
+  height: 100%;
+  border: 1px solid grey;
+}
+
+.content-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+}
+
+.bio {
+  border: 1px solid grey;
+  grid-area: bio;
+}
+
+.demo-box {
+  width: 75%;
+  height: 125px;
+  border: 1px solid grey;
+  margin-top: 2em;
+}
